@@ -71,7 +71,7 @@ install_requires = [
     "Cython>=0.29.28,<0.30.0",
     "Rtree>=1.0.0,<2.0.0",
     "numpy>=1.22.2,<2.0.0",
-    "setuptools>=60.9.3,<61.0.0",
+    "setuptools>=60.9.3",
     "trimesh>=3.10.7,<4.0.0",
     "wheel>=0.37.1,<0.38.0",
 ]
@@ -86,7 +86,7 @@ setup_kwargs = {
     "author_email": "scopatz@gmail.com",
     "maintainer": "Adam Hendry",
     "maintainer_email": "adam.grant.hendry@gmail.com",
-    "url": "https://github.com/adam-grant-hendry/pyembree",
+    "url": "https://github.com/9to6/pyembree",
     "ext_modules": ext_modules,
     "cmdclass": {"build_ext": build_ext},
     "zip_safe": False,
